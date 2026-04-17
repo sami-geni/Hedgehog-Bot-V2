@@ -50,7 +50,6 @@ module.exports = {
  │ 📈 𝗖𝗣𝗨 𝗨𝘀𝗮𝗴𝗲: ${(Math.random() * 100).toFixed(1)}%
  │ 🧠 𝗥𝗔𝗠: ${(process.memoryUsage().rss / 1024 / 1024).toFixed(1)}MB
  ├─────────────────────┤
- │ ☣️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}\n
  │ 📅 𝗗𝗮𝘁𝗲: ${now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
  │ ⏳ 𝗧𝗶𝗺𝗲: ${now.toLocaleTimeString()}
  │ 👥 𝗨𝘀𝗲𝗿𝘀: ${Math.floor(Math.random() * 200) + 50}
